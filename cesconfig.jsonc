@@ -1,0 +1,42 @@
+// This is an optional configuration file used primarily for debugging purposes when reporting issues.
+// It is safe to delete this file as it does not affect the functionality of your application.
+{
+  "cesVersion": "2.23.3",
+  "projectName": "test-anikoto-with-expo-video",
+  "packages": [
+    {
+      "name": "expo-router",
+      "type": "navigation",
+      "options": {
+        "type": "stack"
+      }
+    },
+    {
+      "name": "nativewind",
+      "type": "styling"
+    },
+    {
+      "name": "react-native-svg",
+      "type": "software-mansion"
+    }
+  ],
+  "flags": {
+    "noGit": false,
+    "noInstall": false,
+    "overwrite": false,
+    "importAlias": true,
+    "packageManager": "bun",
+    "eas": false,
+    "publish": false
+  },
+  "packageManager": {
+    "type": "bun",
+    "version": "1.4.2"
+  },
+  "os": {
+    "type": "Darwin",
+    "platform": "darwin",
+    "arch": "arm64",
+    "kernelVersion": "27.2.0"
+  }
+}
